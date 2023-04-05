@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="css/Style-cadastro.css">
+</head>
+
+<body>
+
+  <header>
+
+  </header>
+
+  <p> <a class="Horarioapp" href="index.html" Horarioapp> Horarioapp</a> </p>
+
+    <p> <a class="cadastrobotao" href="cadastro.html" > Cadastro </a></p>
+
+    <p> <a class="loginbotao" href="login.html"> Login </a> </p>
+
+  <div class="container">
+
+    <div class="content">
+
+      <div id="login">
+        <form method="post" action="">
+
+          <h1 class="NewUser">Novo Usuário</h1>
+
+          <p>
+            <label class="lnome" for="nome_cad">Nome:</label>
+            <input class="nomebox" id="nome_login" name="nome_login" required="required" type="text" />
+          </p>
+
+          <p>
+            <label class="lEmail" for="email_cad">E-mail:</label>
+            <input class="emailbox" id="email_login" name="email_login" required="required" type="text" />
+          </p>
+          <p>
+            <label class="instEnsinoLb" for="inst_cad">Instituição de ensino:</label>
+            <input class="instEnsinobox" id="inst_login" name="inst_login" required="required" type="text" />
+          </p>
+          <label class="lestado" for="Estado">Estado:</label>
+
+          <select class="selestado" name="Estado" id="Estado">
+
+            <option value="Estado"> UF </option>
+
+            <option value="Estado">PE</option>
+          </select>
+
+          <br />
+
+          <label class="lcidade" for="Cidade">Cidade:</label>
+
+          <select class="selcidade" name="Cidade" id="Cidade">
+
+            <option value="Cidade">Selecione</option>
+
+            <option value="Cidade">Recife</option>
+
+            <option value="Cidade">Olinda</option>
+
+            <option value="Cidade">Camaragibe</option>
+
+          </select><br>
+
+          <p>
+            <label class="lSenha" for="senha_cad">Senha:</label>
+            <input class="senhabox" senha id="senha" name="senha" type="password">
+          </p>
+
+          <p>
+            <input class="btncadastrar" type="submit" value="Cadastrar" />
+          </p>
+
+          <footer class="footer">Horarioapp - 2023</footer>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

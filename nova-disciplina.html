@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova disciplina</title>
+  <link rel="stylesheet" href="css/style-nova-d.css">
+</head>
+
+<body>
+
+  <header>
+
+  </header>
+
+  <p> <a class="Horarioapp" href="index.html" Horarioapp> Horarioapp</a> </p>
+
+  <p> <a class="minhaconta" href="nova-disciplina.html" > Minha Conta </a></p>
+
+  <p> <a class="loginbotao" href="login.html"> Logout </a> </p>
+
+  <p > <a class="nomeAluno" href="agendados.html"> Bem Vindo {Fulano} </a></p>
+
+
+  <div class="container">
+
+    <div class="content">
+
+      <div id="login">
+        <form method="post" action="">
+
+          <h1 class="disciplina">Nova disciplina</h1>
+
+          <p>
+            <label class="dnome" for="nome_cad">Nome da disiciplina:</label>
+            <input class="dnomebox" id="nome_login" name="nome_login" required="required" type="text" />
+          </p>
+
+          <p>
+            <label class="pnome" for="email_cad">Nome do Professor:</label>
+            <input class="pnomebox" id="email_login" name="email_login" required="required" type="text" />
+          </p>
+          <p>
+            <label class="lsala" for="inst_cad">Sala:</label>
+            <input class="salabox" id="sala" name="sala" required="required" type="text" />
+          </p>
+
+          <label class="ldsemana" for="diadasemana">Dia da semana: </label>
+
+          <select class="sdsemana" name="diadasemana" id="diadasemana">
+
+            <option value="diadasemana"> Selecione o dia da semana... </option>
+
+          </select>
+
+          <br />
+
+          <label class="lhinicio" for="horaInicio">Hora de início: </label>
+
+          <select class="shinicio" name="horainicio" id="horainicio">
+
+            <option value="horainicio">07:00</option>
+
+          </select><br />
+
+          <label class="lhtermino" for="horatermino">Hora de Término: </label>
+          <select class="shtermino" name="horatermino" id="horatermino">
+
+            <option value="horatermino"> 07:00 </option>
+
+          </select> <br />
+
+
+          <p>
+            <input class="btncadastrar" type="submit" value="Cadastrar" />
+          </p>
+
+          <footer class="footer">Horarioapp - 2023</footer>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

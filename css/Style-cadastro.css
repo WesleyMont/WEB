@@ -1,0 +1,252 @@
+body {
+    border: 0px;
+    margin: 0px;
+}
+
+header {
+
+    position: absolute;
+    width: 1366px;
+    height: 83px;
+    top: 0px;
+    background: #0057DF;
+
+}
+
+
+.Horarioapp {
+    position: absolute;
+    width: 172px;
+    height: 22px;
+    left: 40px;
+    top: 30px;
+    text-decoration: 0;
+    font-family: 'Black Han Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.cadastrobotao {
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 1200px;
+    top: 30px;
+    text-decoration: 0;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFB800;
+}
+
+.loginbotao {
+    position: absolute;
+    width: 56px;
+    height: 25px;
+    left: 1300px;
+    top: 30px;
+    text-decoration: 0;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F5F5F5;
+}
+
+.NewUser {
+    position: absolute;
+    width: 191px;
+    height: 41.25px;
+    left: 600px;
+    top: 100px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #0057DF;
+}
+
+
+.lnome {
+    position: absolute;
+    width: 67px;
+    height: 28px;
+    left: 420px;
+    top: 200px;
+
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #5A5A5A;
+}
+
+.nomebox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 361px;
+    height: 31px;
+    left: 500px;
+    top: 200px;
+    background: #FFFFFF;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+}
+
+.lEmail {
+    position: absolute;
+    left: 411.3px;
+    top: 260px;
+    width: 461px;
+    height: 31px;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #5A5A5A;
+}
+
+.emailbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 361px;
+    height: 31px;
+    left: 500px;
+    top: 260px;
+    background: #FFFFFF;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+}
+
+.lestado {
+    position: absolute;
+    width: 229px;
+    height: 15px;
+    left: 410.1px;
+    top: 320px;
+
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+
+
+    color: #5A5A5A;
+}
+
+.selestado {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60.21px;
+    height: 31px;
+    left: 500px;
+    top: 320px;
+
+    background: #FFFFFF;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+}
+
+.lcidade {
+    position: absolute;
+    width: 229px;
+    height: 15px;
+    left: 590px;
+    top: 320px;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    color: #5A5A5A;
+}
+
+.selcidade {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 181.56px;
+    height: 31px;
+    left: 679.5px;
+    top: 320px;
+    background: #FFFFFF;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+}
+
+.lSenha {
+    position: absolute;
+    width: 229px;
+    height: 15px;
+    left: 417.5px;
+    top: 380px;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    color: #5A5A5A;
+}
+
+.senhabox {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 361px;
+    height: 31px;
+    left: 500px;
+    top: 380px;
+
+    background: #FFFFFF;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+}
+
+.btncadastrar {
+    box-sizing: border-box;
+    position: absolute;
+    width: 361px;
+    height: 42px;
+    left: 500px;
+    top: 440px;
+    background: #0057DF;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer {
+    position: absolute;
+    left: 635px;
+    top: 600px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+
+}

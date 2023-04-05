@@ -1,0 +1,97 @@
+body {
+    border: 0px;
+    margin: 0px;
+}
+
+header {
+
+    position: absolute;
+    width: 100%;
+    height: 83px;
+
+
+    top: 0px;
+
+    background: #0057DF;
+
+}
+
+
+.Horarioapp {
+    position: absolute;
+    width: 172px;
+    height: 22px;
+    left: 40px;
+    top: 30px;
+
+    font-family: 'Black Han Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: 0;
+
+    color: #FFFFFF;
+
+}
+
+.cadastrobotao {
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 1200px;
+    top: 30px;
+
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: 0;
+    color: #F5F5F5;
+}
+
+.loginbotao {
+    position: absolute;
+    width: 56px;
+    height: 25px;
+    left: 1300px;
+    top: 30px;
+
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: 0;
+
+
+    color: #F5F5F5;
+}
+
+
+.Slogan {
+
+    position: absolute;
+    width: 511px;
+    height: 181px;
+    left: 60px;
+    top: 200px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 75px;
+    color: #0057DF;
+}
+
+.imagem {
+    background: url(Imagens/imagem.png) no-repeat scroll left top;
+    position: fixed;
+    width: 1068px;
+    height: 1015px;
+    left: 780px;
+    top: 85px;
+    filter: blur(2px);
+}
